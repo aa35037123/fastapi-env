@@ -1,0 +1,33 @@
+Return-Path: <wesleyshi0321@gmail.com>
+Received: from localhost.localdomain ([140.113.215.249])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-220d7a464f1sm162006495ad.206.2025.02.23.06.54.44
+        for <wesleyshi0321@gmail.com>
+        (version=TLS1_3 cipher=TLS_CHACHA20_POLY1305_SHA256 bits=256/256);
+        Sun, 23 Feb 2025 06:54:45 -0800 (PST)
+From: aa35037123 <wesleyshi0321@gmail.com>
+To: wesleyshi0321@gmail.com
+Subject: [PATCH 2/2] Add test/main.py
+Date: Sun, 23 Feb 2025 22:53:25 +0800
+Message-Id: <20250223145325.163-3-wesleyshi0321@gmail.com>
+X-Mailer: git-send-email 2.39.2 (Apple Git-143)
+In-Reply-To: <20250223145325.163-1-wesleyshi0321@gmail.com>
+References: <20250223145325.163-1-wesleyshi0321@gmail.com>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ test/app.py | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test/app.py
+
+diff --git a/test/app.py b/test/app.py
+new file mode 100644
+index 0000000..0059c45
+--- /dev/null
++++ b/test/app.py
+@@ -0,0 +1,2 @@
++from fastapi import FastAPI
++app = FastAPI()
+-- 
+2.39.2 (Apple Git-143)
+
